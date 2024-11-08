@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Karla", sans-serif;
+    box-sizing: border-box;
+}
+
+.main-container{
+  width: 100%;
+  height: auto;
+  margin: 4 auto;
+  padding: 4rem;
+  background-color: #11111110;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.form-container{
+  width: 40%;
+  height: auto;
+  padding: 2rem;
+  background-color: #3a2300;
+  border: 2px solid #ce9701;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 2rem;
+}
+
+.tab{
+  width: 100%;
+  height: auto;
+  background-color: #3a2300;
+  border: 1px solid #b86e00;
+  border-radius: 0.4rem;
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.signup, .signin{
+  width: 50%;
+  height: auto;
+  border-radius: 0.4rem;
+  padding: 0.8rem 3rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.active{
+  background-color: #b86e00;
+  color: #f1f1f1;
+}
+
+.inactive{
+  background-color: #1b1000;
+  color: #f1f1f1;
+}
+
+form{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.input{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 1.2rem;
+}
+
+.header h1{
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.inputgroup{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 0.6rem;
+}
+
+label{
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+input{
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  background-color: #f8f8f82a;
+  color: #f8f8f8;
+  border: 1px solid #b86e00;
+  outline: none;
+  border-radius: 0.4rem;
+}
+
+input:hover{
+  background-color: #3a2300;
+  color: #a7a198;
+  border: 2.5px solid #b86e00;
+  font-size: 1.2rem;
+}
+
+.button-container{
+  width: 100%;
+  height: auto;
+}
+
+.button-container button{
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  background-color: #b86e00;
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #ff9e0c;
+  color: #fafafa;
+  border: 2.5px solid #b86e00;
+  font-size: 1.4rem;
+}
